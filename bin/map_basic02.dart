@@ -5,12 +5,13 @@ Return the variable.
 
 */
 
-Map func(Map data) {
+Map func() {
+  Map data = {};
   data[1] = 'one';
-  data[2] = 'two';
+  data[3] = 'two';
   return data;
 }
 
 void main() {
-  print(func({}));
+  print(func());
 }
